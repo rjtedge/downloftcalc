@@ -30,15 +30,15 @@ function myFunction() {
     var fw = document.getElementById("fweight").value;
     var oztog = 28.3495
     var totalloft = (fw/(oztog/fp));
-    var f500 = (totalloft*(oztog/500);
-    var f550 = (totalloft*(oztog/550);
-    var f600 = (totalloft*(oztog/600);
-    var f650 = (totalloft*(oztog/650);
-    var f700 = (totalloft*(oztog/700);
-    var f750 = (totalloft*(oztog/750);
-    var f800 = (totalloft*(oztog/800);
-    var f850 = (totalloft*(oztog/850);
-    var f900 = (totalloft*(oztog/900); 
+    var f500 = (totalloft*(oztog/500));
+    var f550 = (totalloft*(oztog/550));
+    var f600 = (totalloft*(oztog/600));
+    var f650 = (totalloft*(oztog/650));
+    var f700 = (totalloft*(oztog/700));
+    var f750 = (totalloft*(oztog/750));
+    var f800 = (totalloft*(oztog/800));
+    var f850 = (totalloft*(oztog/850));
+    var f900 = (totalloft*(oztog/900)); 
 
   document.getElementById("demo").innerHTML = Math.round(totalloft);
   document.getElementById("f500").innerHTML = Math.round(f500);
