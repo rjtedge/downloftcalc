@@ -5,10 +5,11 @@ Have you ever wondered how a  jacket with 150g of 750 fill power down compares w
 This site allows you to enter the fill weight and fill power of any down filled item to calculate its total loft and therefore its warmth. Using this will allow you to compare down filled items with differnt fill powers and/or fill weights.
 
 <form id="frm1" action="/action_page.php">
-  First name: <input type="text" name="fname" value="Test"><br>
+  Fill Power: <input type="text" name="fpower" value="800"><br>
+  Fill Weight: <input type="text" name="fweight" value="150"><br>
 </form> 
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction()">Compare loft</button>
 
 <p id="demo"></p>
 
@@ -23,5 +24,3 @@ function myFunction() {
     document.getElementById("demo").innerHTML = text;
 }
 </script>
-
-Testing
