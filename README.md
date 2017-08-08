@@ -18,8 +18,10 @@ function myFunction() {
     var fpower = document.getElementByName("fpower").value;
     var fweight = document.getElementByName("fweight").value;
     }
-    document.getElementById("demo").innerHTML = fweight;
+    
+    document.getElementById("demo").innerHTML = fpower;
 }
+
 </script>
 
 End
