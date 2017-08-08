@@ -17,8 +17,6 @@ This site allows you to enter the fill weight and fill power of any down filled 
 function myFunction() {
     var fpower = document.getElementByName("fpower").value;
     var fweight = document.getElementByName("fweight").value;
-    }
-    
     document.getElementById("demo").innerHTML = fpower;
 }
 
