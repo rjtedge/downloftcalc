@@ -11,18 +11,18 @@ This site allows you to enter the fill weight and fill power of any down filled 
 
 
 ### Total Loft 
-<p id="demo"></p>cubic centermeeters of loft
+<div><p id="demo"></p>cubic centermeeters of loft</div>
 
 ### Weight (in grams) of down required for different loft powers to achieve the same total loft (and therefore warmth)
-<p id="f500"></p>grams of 500 fill power down <br>
-<p id="f550"></p>grams of 550 fill power down <br>
-<p id="f600"></p>grams of 600 fill power down <br>
-<p id="f650"></p>grams of 650 fill power down <br>
-<p id="f700"></p>grams of 700 fill power down <br>
-<p id="f750"></p>grams of 750 fill power down <br>
-<p id="f800"></p>grams of 800 fill power down <br>
-<p id="f850"></p>grams of 850 fill power down <br>
-<p id="f900"></p>grams of 900 fill power down <br>
+<div><p id="f500"></p>grams of 500 fill power down <br></div>
+<div><p id="f550"></p>grams of 550 fill power down <br></div>
+<div><p id="f600"></p>grams of 600 fill power down <br></div>
+<div><p id="f650"></p>grams of 650 fill power down <br></div>
+<div><p id="f700"></p>grams of 700 fill power down <br></div>
+<div><p id="f750"></p>grams of 750 fill power down <br></div>
+<div><p id="f800"></p>grams of 800 fill power down <br></div>
+<div><p id="f850"></p>grams of 850 fill power down <br></div>
+<div><p id="f900"></p>grams of 900 fill power down <br></div>
 
 <script>
 function myFunction() {
