@@ -14,15 +14,33 @@ This site allows you to enter the fill weight and fill power of any down filled 
 <div><p id="demo"></p>cubic centermeeters of loft</div>
 
 ### Weight (in grams) of down required for different loft powers to achieve the same total loft (and therefore warmth)
-<div><p id="f500"></p>grams of 500 fill power down <br></div>
-<div><p id="f550"></p>grams of 550 fill power down <br></div>
-<div><p id="f600"></p>grams of 600 fill power down <br></div>
-<div><p id="f650"></p>grams of 650 fill power down <br></div>
-<div><p id="f700"></p>grams of 700 fill power down <br></div>
-<div><p id="f750"></p>grams of 750 fill power down <br></div>
-<div><p id="f800"></p>grams of 800 fill power down <br></div>
-<div><p id="f850"></p>grams of 850 fill power down <br></div>
-<div><p id="f900"></p>grams of 900 fill power down <br></div>
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>500</th>
+      <th>550</th>
+      <th>600</th>
+      <th>650</th>
+      <th>700</th>
+      <th>750</th>
+      <th>800</th>
+      <th>850</th>
+      <th>900</th>
+    </tr>
+    <tr>
+      <td id="f500"></td>
+      <td id="f550"></td>
+      <td id="f600"></td>
+      <td id="f650"></td>
+      <td id="f700"></td>
+      <td id="f750"></td>
+      <td id="f800"></td>
+      <td id="f850"></td>
+      <td id="f900"></td>
+    </tr>
+  </table>
+</div>
 
 <script>
 function myFunction() {
