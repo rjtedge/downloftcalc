@@ -1,17 +1,16 @@
 ## Welcome to the Down Comparison Calculator
 
-Have you ever wondered how a  jacket with 150g of 750 fill power down compares with a jacket of 190g of 650 fill power down? 
+Have you ever wondered how a jacket with 140g of 750 fill power down compares with a jacket of 190g of 550 fill power down for warmth?
 
-This site allows you to enter the fill weight and fill power of any down filled item to calculate its total loft and therefore its warmth. Using this will allow you to compare down filled items with differnt fill powers and/or fill weights.
+This site allows you to enter the fill weight and fill power of any down filled item to calculate its total loft and therefore its actual warmth. Using this will allow you to compare down filled items with differnt fill powers and/or fill weights. 
 
-<form id="frm1" action="/action_page.php">
-  Fill Power: <input type="number" id="fpower" oninput="myFunction()" value="800"><br>
-  Fill Weight: <input type="text" id="fweight" oninput="myFunction()" value="150"><br>
-</form> 
+### Product stats
 
+  Fill Power: <input type="number" id="fpower" oninput="myFunction()" value="800">
+  Fill Weight: <input type="number" id="fweight" oninput="myFunction()" value="150">
 
 ### Total Loft 
-<div><p id="demo"></p>cubic centermeeters of loft</div>
+<p id="demo"></p>
 
 ### Weight (in grams) of down required for different loft powers to achieve the same total loft (and therefore warmth)
 
