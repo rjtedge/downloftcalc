@@ -6,8 +6,8 @@ This site allows you to enter the fill weight and fill power of any down filled 
 
 ### Product stats
 
-  Fill Power: <input type="number" id="fpower" oninput="myFunction()" value="800">
-  Fill Weight: <input type="number" id="fweight" oninput="myFunction()" value="150">
+  Fill Power: <input type="number" id="fpower" oninput="myFunction()" value="750"><br>
+  Fill Weight (in grams): <input type="number" id="fweight" oninput="myFunction()" value="150">
 
 ### Total Loft 
 <p id="demo"></p>
