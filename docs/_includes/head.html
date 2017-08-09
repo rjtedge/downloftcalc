@@ -1,0 +1,41 @@
+ <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    
+    <script>
+    function myFunction() {
+      var fp = document.getElementById("fpower").value;
+      var fw = document.getElementById("fweight").value;
+      var oztog = 28.3495
+      var totalloft = (fw/(oztog/fp));
+      var f500 = (totalloft*(oztog/500));
+      var f550 = (totalloft*(oztog/550));
+      var f600 = (totalloft*(oztog/600));
+      var f650 = (totalloft*(oztog/650));
+      var f700 = (totalloft*(oztog/700));
+      var f750 = (totalloft*(oztog/750));
+      var f800 = (totalloft*(oztog/800));
+      var f850 = (totalloft*(oztog/850));
+      var f900 = (totalloft*(oztog/900)); 
+  
+      document.getElementById("demo").innerHTML = Math.round(totalloft);
+      document.getElementById("f500").innerHTML = Math.round(f500);
+      document.getElementById("f550").innerHTML = Math.round(f550);  
+      document.getElementById("f600").innerHTML = Math.round(f600);  
+      document.getElementById("f650").innerHTML = Math.round(f650);
+      document.getElementById("f700").innerHTML = Math.round(f700);  
+      document.getElementById("f750").innerHTML = Math.round(f750);  
+      document.getElementById("f800").innerHTML = Math.round(f800);  
+      document.getElementById("f850").innerHTML = Math.round(f850);  
+      document.getElementById("f900").innerHTML = Math.round(f900);  
+}
+</script>
